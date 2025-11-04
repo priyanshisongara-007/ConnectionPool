@@ -5,7 +5,7 @@ import java.sql.SQLException;
 public class TooManyConnectionsDemo {
     private static final String URL = "jdbc:mysql://10.65.134.76:3310/sys";
     private static final String USER = "root";
-    private static final String PASSWORD = "root";
+    private static final String PASSWORD = "****";
 
     public static void main(String[] args) {
         // Launch 50 threads — each opens and closes a DB connection without pooling
